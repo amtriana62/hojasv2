@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', #pip install pymysql
-        'NAME': 'hojashielo',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost', #puede ser la direccion ip
-        'PORT': '3306'
+        'PASSWORD': 'ktL79kbgXm7pYvgQ8AY1',
+        'HOST': 'containers-us-west-126.railway.app', #puede ser la direccion ip
+        'PORT': '7346'
     }
 }
 
