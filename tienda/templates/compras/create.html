@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block titulo %} Agregar Compra {% endblock %}
+
+{% block contenido %}  
+    
+<div class="card">
+    <div class="card-header">
+        Compra de hojas
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos de la compra</h4>
+        
+        {% include 'compras/form_c.html' %}
+
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+{% endblock %}
