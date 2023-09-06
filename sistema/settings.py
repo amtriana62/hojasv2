@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', #pip install pymysql
-        'NAME': 'railway',
-        'USER': 'root',
-        'PASSWORD': 'ktL79kbgXm7pYvgQ8AY1',
-        'HOST': 'containers-us-west-126.railway.app', #puede ser la direccion ip
-        'PORT': '7346'
+        'MYSQLDATABASE': 'railway',
+        'MYSQLUSER': 'root',
+        'MYSQLPASSWORD': 'ktL79kbgXm7pYvgQ8AY1',
+        'MYSQLHOST': 'containers-us-west-126.railway.app', #puede ser la direccion ip
+        'MYSQLPORT': '7346'
     }
 }
 
