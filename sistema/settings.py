@@ -84,10 +84,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', #pip install pymysql
         'MYSQLDATABASE': 'railway',
+        'MYSQLHOST': 'containers-us-west-52.railway.app', #puede ser la direccion ip
+        'MYSQLPASSWORD': 'VNfY6epENwdR0o1vbPUk',
+        'MYSQLPORT': '6680',
         'MYSQLUSER': 'root',
-        'MYSQLPASSWORD': 'ktL79kbgXm7pYvgQ8AY1',
-        'MYSQLHOST': 'containers-us-west-126.railway.app', #puede ser la direccion ip
-        'MYSQLPORT': '7346',
     }
 }
 
