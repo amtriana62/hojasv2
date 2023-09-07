@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'tienda'
 ]
 
+
 CSRF_TRUSTED_ORIGINS=['https://hojasv2-production.up.railway.app']
 
 MIDDLEWARE = [
