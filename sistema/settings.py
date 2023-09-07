@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
-
+import pymysql
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -87,7 +87,7 @@ DATABASES = {
         'MYSQLUSER': 'root',
         'MYSQLPASSWORD': 'ktL79kbgXm7pYvgQ8AY1',
         'MYSQLHOST': 'containers-us-west-126.railway.app', #puede ser la direccion ip
-        'MYSQLPORT': '7346'
+        'MYSQLPORT': '7346',
     }
 }
 
